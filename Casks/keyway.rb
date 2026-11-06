@@ -2,13 +2,11 @@ cask "keyway" do
   version "0.2.17"
 
   on_arm do
-    url "https://github.com/anmutu/keyway/releases/download/v#{version}/Keyway_#{version}_aarch64.dmg",
-        verified: "github.com/anmutu/keyway/"
+    url "https://keyway.one/downloads/Keyway_#{version}_aarch64.dmg"
     sha256 "60bf9622b095f292f99115dbf8e330bd786625e4675d7a3b3e2185ecce4d64e4"
   end
   on_intel do
-    url "https://github.com/anmutu/keyway/releases/download/v#{version}/Keyway_#{version}_x64.dmg",
-        verified: "github.com/anmutu/keyway/"
+    url "https://keyway.one/downloads/Keyway_#{version}_x64.dmg"
     sha256 "868a512c3edc7de5e47f624729e13a5fea35b9e4093e43ca3a060254184188f7"
   end
 
