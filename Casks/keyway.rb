@@ -15,7 +15,7 @@ cask "keyway" do
   homepage "https://keyway.one"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Keyway.app"
 
