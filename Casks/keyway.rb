@@ -1,13 +1,13 @@
 cask "keyway" do
-  version "0.2.20"
+  version "0.2.21"
 
   on_arm do
     url "https://keyway.one/downloads/Keyway_#{version}_aarch64.dmg"
-    sha256 "b28d2251a8207def3a7b4d70aac3d3dd6d65504a43ea2ea3b3dcced4d8a06c79"
+    sha256 "f0f6bef9dd48b5c9afbfeb8ab98643ea7ddd9314e5b0a2c5ef7b00dc45ca8125"
   end
   on_intel do
     url "https://keyway.one/downloads/Keyway_#{version}_x64.dmg"
-    sha256 "1977508c105b211ae21464a565014cd364a5fa266c01278fae570c5e2e24e5c9"
+    sha256 "5c531c027eb9d721508421f7fbd6c08a1bc274b3867e56185637a95f7a2dc039"
   end
 
   name "Keyway"
