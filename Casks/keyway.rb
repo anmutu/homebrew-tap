@@ -3,11 +3,11 @@ cask "keyway" do
 
   on_arm do
     url "https://keyway.one/downloads/Keyway_#{version}_aarch64.dmg"
-    sha256 "7da13cd385d0133ee0babc255bb1ea9598cbc29f8302bd20f608483997d8b556"
+    sha256 "e4909b162d3ce73c69f8dcb69c6c2c866b1a4590fb8d03c7d3ac8be6a25b53fe"
   end
   on_intel do
     url "https://keyway.one/downloads/Keyway_#{version}_x64.dmg"
-    sha256 "322ab026c21c5a21fa12d95cd23a2af399b40efd1d7d6595e69a08d4675b00e6"
+    sha256 "32289dadfc8666f7c92c7ff912d534a3783514240dfc2211f5de4fb0a0026244"
   end
 
   name "Keyway"
